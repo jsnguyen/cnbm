@@ -1,4 +1,6 @@
 # cnbm
+c-n-body-mini
+
 A business card sized n-body code. Inspired by Tiny Ski and the business card raytracer.
 
 To compile run:
@@ -10,7 +12,7 @@ To run and plot (requires python3, matplotlib, numpy):
 ```
 ./cnbm > out.txt && ./p
 ```
-To animate the plot use:
+To animate the plot use the animation flag:
 ```
 ./p -a
 ```
