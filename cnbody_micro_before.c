@@ -85,6 +85,7 @@ int main(){
     for(int i=0;i<nb;i++){
         free(bsi[i].pv);
     }
+    printf("%li\n",sizeof(body));
 
     return 0;
 }
