@@ -1,4 +1,4 @@
-#include "stdlib.h"//  cnbm by: jsnguyen
+#include "stdlib.h"// cnbm by:  jsnguyen
 #include "stdio.h" // double grav assist
 #include "math.h"  // gcc cnbm.c -o cnbm
 #include "string.h"//    -lm -Wall      
@@ -16,9 +16,9 @@ z[1].p[0]= 1.5e11;z[1].p[1]=0;z[1].p[2]=
 0;z[1].p[3]=3.2e4;z[2].m=1e26;z[2].p[0]=
 1.5e11;z[2].p[1] =1.5e11;z[2].p[2]=-3e3;
 z[2].p[3]=3e3;for(i =0;i<n;i++){for(j=0;
-j<m;j++) //      ./cnbm > out.txt && ./p
+j<m;j++) //_____ ./cnbm > out.txt && ./p
 printf("%.4e %.4e %.4e %.4e\n",z[j].p[0]
- , z[j].p[1],z[j].p[2],z[j].p[3]);b *c =
+,z[j].p[1] ,z[j].p[2], z[j].p[3]);b *c =
 malloc( 16*m);memcpy(c,&z,16*m);for(k=0;
 k<m;k++){double v[]={0,0},w[]={0,0};for(
 j= 0;j<m;j++){if(k!=j)a(v,&c[k],&c[j]);}
