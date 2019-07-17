@@ -16,6 +16,10 @@ To animate the plot use the animation flag:
 ```
 ./p -a
 ```
+If you saved the output file to any other name use:
+```
+./p --filename=<output filename>
+```
 Default parameters have one Solar mass body and two Jupiter mass bodies interacting. One of the Jupiter bodies gets two gravity assists from the other!
 
 ![](animation.gif)
