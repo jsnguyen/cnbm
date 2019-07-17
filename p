@@ -74,7 +74,6 @@ elif args.s:
     for j in range(0,len(xxs[0]),int(len(xxs[0])/nSave)):
         plt.xlim(-boxsize/2*AU,boxsize/2*AU)
         plt.ylim(-boxsize/2*AU,boxsize/2*AU)
-        plt.axis('off')
         for i in range(nb):
             plt.plot(xxs[i][j],yys[i][j],linestyle='none',marker='o')
         pad=''
@@ -87,6 +86,7 @@ elif args.s:
         plt.savefig(saveFilename,bbox_inches='tight')
         counter+=1
         plt.clf()
+        plt.cla()
     print('Done')
 
 
