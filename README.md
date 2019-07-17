@@ -19,3 +19,9 @@ To animate the plot use the animation flag:
 Default parameters have one Solar mass body and two Jupiter mass bodies interacting. One of the Jupiter bodies gets two gravity assists from the other!
 
 ![](animation.gif)
+
+To make the gif do (needs imagemagick):
+```
+./p -s
+convert -delay 10 -loop 0 *.png animation.gif
+```
